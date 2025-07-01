@@ -1,0 +1,124 @@
+# Конфиденциальные данные
+config.py
+firebase-credentials.json
+channel_monitor.py
+channel_monitor.session
+.env
+*.key
+*.pem
+
+# Файлы окружения Python
+venv/
+.env/
+env/
+venv*/
+ENV/
+env.bak/
+venv.bak/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py.class
+
+# Логи
+*.log
+logs/
+
+# Настройки редакторов и IDE
+.idea/
+.vscode/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# Операционные системы
+.DS_Store
+Thumbs.db
+
+# Временные файлы
+*.tmp
+*.bak
+*.swp
+*~
+~$*
+
+# Результаты сборки
+build/
+dist/
+*.egg-info/
+__pycache__/
+
+# Файлы базы данных (если используете локальную БД)
+*.db
+*.sqlite
+*.sqlite3
+
+# Документация
+docs/_build/
+
+# Тестовые данные
+test_output/
+coverage.xml
+.coverage
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+*.iml
+.idea_modules/
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Пакеты Python
+*.egg
+*.egg-info
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+__pycache__/
+
+# Установщик Pip
+pip-selfcheck.json
+
+# PyTest
+.pytest_cache/
+
+# Firebase
+.firebase/
+firebase-debug.log

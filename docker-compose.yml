@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  joke-bot:
+    build: .
+    container_name: joke-bot
+    restart: unless-stopped
+    volumes:
+      - ./firebase-credentials.json:/app/firebase-credentials.json
+      - ./logs:/app/logs
