@@ -3,7 +3,6 @@ config.py
 firebase-credentials.json
 channel_monitor.py
 channel_monitor.session
-config.py
 .env
 *.key
 *.pem
