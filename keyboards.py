@@ -32,19 +32,6 @@ def create_cancel_keyboard():
     keyboard.add(KeyboardButton("❌ Отмена"))
     return keyboard
 
-def create_group_keyboard():
-    keyboard = ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
-    buttons = [
-        KeyboardButton("🎲 Случайный анекдот"),
-        KeyboardButton("🔔 Подписать группу"),
-        KeyboardButton("🔕 Отписать группу"),
-        KeyboardButton("ℹ️ Помощь")
-    ]
-    keyboard.row(buttons[0])
-    keyboard.row(buttons[1], buttons[2])
-    keyboard.row(buttons[3])
-    return keyboard
-
 def create_moderation_reply_keyboard():
     """Создаёт клавиатуру для модерации с reply-кнопками"""
     keyboard = ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
